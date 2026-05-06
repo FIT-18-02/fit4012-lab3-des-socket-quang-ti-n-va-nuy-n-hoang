@@ -1,0 +1,13 @@
+=== LOG CHẠY THẬT - CA 03 (NEGATIVE - TAMPER) ===
+- Thời gian: 2026-05-06 21:00:00
+- Tình huống: Kẻ tấn công sửa đổi Ciphertext trước khi Receiver nhận.
+- Kết quả mong đợi: Lỗi giải mã hoặc lỗi Padding.
+
+[SENDER]: Đã gửi gói tin gốc.
+[ATTACKER]: Chỉnh sửa byte cuối cùng của Ciphertext.
+
+[RECEIVER]:
+Đang lắng nghe 0.0.0.0:6000...
+Kết nối từ ('127.0.0.1', 51236)
+Lỗi: Padding không hợp lệ. (ValueError tại des_socket_utils.py: unpad)
+[-] Hê thống đã chặn bản tin bị chỉnh sửa thành công.
