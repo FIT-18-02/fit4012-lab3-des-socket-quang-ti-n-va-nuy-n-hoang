@@ -1,0 +1,22 @@
+=== THÔNG TIN DEMO ===
+- Thời gian chạy: 06/05/2026 
+- Tình huống: Happy Path - Gửi nhận bản tin thành công qua kết nối TCP Socket (2 máy khác nhau).
+- Phân công demo: 
+  + Người chạy Sender (Gửi): Đặng Quang Tiến
+  + Người chạy Receiver (Nhận): Nguyễn Hoàng
+
+==================================================
+=== 1. LOG CỦA MÁY RECEIVER (Nguyễn Hoàng) ===
+==================================================
+Đang lắng nghe 0.0.0.0:6000... (Thời gian chờ: 60.0s)
+Kết nối từ ('26.15.112.48', 54321) 
+[+] Bản tin gốc: He thong da ma hoa va truyen du lieu an toan qua TCP Socket!
+
+==================================================
+=== 2. LOG CỦA MÁY SENDER (Đặng Quang Tiến) ===
+==================================================
+Nhập bản tin: He thong da ma hoa va truyen du lieu an toan qua TCP Socket!
+[+] Đã gửi bản mã.
+Key: a1b2c3d4e5f60708
+IV: 1a2b3c4d5e6f7081
+Ciphertext: 8c4f2a9d13b7e065a91c3d45f67820ab4e5d6f7a8b9c0123d4e5f6a7b8c9012d
