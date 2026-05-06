@@ -9,7 +9,7 @@ Mục tiêu của bài thực hành là xây dựng một hệ thống truyền 
 
 ## Phân công thực hiện
 - **Đặng Quang Tiến (Thành viên 1):** Phụ trách xây dựng `sender.py`, các hàm mã hóa DES, tạo gói tin (build_packet) và padding.
-- **Nguyễn  (Thành viên 2):** Phụ trách `receiver.py`, xử lý TCP socket an toàn (dùng `recv_exact`), bóc tách gói tin và giải mã.
+- **Nguyễn Hoàng (Thành viên 2):** Phụ trách `receiver.py`, xử lý TCP socket an toàn (dùng `recv_exact`), bóc tách gói tin và giải mã.
 - **Làm chung:** Cùng xây dựng thư viện `des_socket_utils.py`, viết kiểm thử (tests), chạy lấy log và thảo luận viết báo cáo Threat Model.
 ## Cách làm
 Sử dụng thư viện `pycryptodome` cho DES-CBC và `socket` cho kết nối TCP. 
