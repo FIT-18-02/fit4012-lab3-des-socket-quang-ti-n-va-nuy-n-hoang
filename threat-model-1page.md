@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Đặng Quang Tiến - MSSV: 1871020570
-- Thành viên 2: Nguyễn  - MSSV: 1871020250
+- Thành viên 2: Nguyễn Hoàng - MSSV: 1871020250
 
 ## Assets
 - Nội dung bản tin gốc (Plaintext message).
