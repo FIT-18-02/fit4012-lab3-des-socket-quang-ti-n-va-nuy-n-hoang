@@ -2,7 +2,7 @@ import os
 import socket
 from des_socket_utils import encrypt_des_cbc, build_packet
 
-SERVER_IP = os.getenv('SERVER_IP', '127.0.0.1')
+SERVER_IP = os.getenv('SERVER_IP', '26.215.183.21')
 SERVER_PORT = int(os.getenv('SERVER_PORT', '6000'))
 MESSAGE_ENV = os.getenv('MESSAGE')
 LOG_FILE = os.getenv('SENDER_LOG_FILE', '')
