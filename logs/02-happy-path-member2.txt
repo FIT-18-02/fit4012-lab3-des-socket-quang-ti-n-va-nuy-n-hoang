@@ -1,0 +1,16 @@
+=== LOG CHẠY THẬT - CA 02 (HAPPY PATH) ===
+Thời gian: 2026-04-21 14:05:00
+Người thực hiện: Nguyễn Hoàng (Sender) -> Đặng Quang Tiến (Receiver)
+Trạng thái: THÀNH CÔNG
+
+[SENDER - HOÀNG]:
+Nhập bản tin: Chao Tiến, minh la Hoàng day.
+[+] Đã gửi bản mã.
+Key: a1b2c3d4e5f60708
+IV: 1234567890abcdef
+Ciphertext: 15188735009410238579f648ba587c9e6b3b7c875db53a0b7490b411bc3bc2937cd7d82f23eada53
+
+[RECEIVER - TIẾN]:
+Đang lắng nghe 0.0.0.0:6000...
+Kết nối từ ('127.0.0.1', 51235)
+[+] Bản tin gốc: Chao Tiến, minh la Hoàng day.
